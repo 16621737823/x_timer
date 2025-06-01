@@ -10,7 +10,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>bitstorm-svr-xtimer</artifactId>
+    <artifactId>bitstorm-svr-xtimer-server</artifactId>
     <description>服务模板</description>
 
     <dependencies>

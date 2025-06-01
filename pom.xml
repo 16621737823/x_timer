@@ -11,7 +11,9 @@
     <description>bitoffer.cn api service</description>
 
     <modules>
-        <module>asuka.xu.xtimer</module>
+        <module>asuka.xu.xtimer.server</module>
+        <module>asuka.xu.xtimer.common</module>
+        <module>asuka.xu.xtimer.api</module>
     </modules>
 
 

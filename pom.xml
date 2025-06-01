@@ -11,22 +11,7 @@
     <description>bitoffer.cn api service</description>
 
     <modules>
-        <module>bitstorm-svr-api</module>
-        <module>bitstorm-svr-common</module>
-        <module>bitstorm-svr-demo</module>
-        <module>bitstorm-svr-seckill</module>
-        <module>bitstorm-svr-mqtry</module>
-        <module>bitstorm-svr-improve</module>
-        <module>bitstorm-svr-testconsumer</module>
-        <module>bitstorm-svr-xtimer</module>
-        <module>bitstorm-svr-asyncflow</module>
-        <module>bitstorm-svr-shorturlx</module>
-        <module>bitstorm-svr-lottery</module>
-        <module>bitstorm-svr-gateway</module>
-        <module>bitstorm-svr-user</module>
-        <module>bitstorm-svr-auth</module>
-        <module>bitstorm-svr-leaf</module>
-        <module>x_timer_repo</module>
+        <module>asuka.xu.xtimer</module>
     </modules>
 
 

@@ -44,6 +44,7 @@ public class MigrateManagerImpl implements MigratorManager{
 
     @Override
     // migrate的逻辑代码
+    // 通过cron表达式计算出end的值，并且创建出一批任务，保存进mysql和redis中
     public void migrateTimer(TimerModel timerModel) {
         // 2. 校验状态
         if(timerModel.getStatus() != TimerStatus.Enable.getStatus()){

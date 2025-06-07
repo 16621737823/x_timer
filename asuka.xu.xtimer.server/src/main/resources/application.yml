@@ -13,9 +13,9 @@ spring:
         password: nacos
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/bitstorm-svr?serverTimezone=GMT%2B8&characterEncoding=utf8&&allowMultiQueries=true&useSSL=false
+    url: jdbc:mysql://192.168.10.100:3307/turbo_dog?serverTimezone=GMT%2B8&characterEncoding=utf8&&allowMultiQueries=true&useSSL=false
     username: root
-    password: root@2023
+    password: 2767
     type: com.alibaba.druid.pool.DruidDataSource
 #    druid:
 #      min-idle: 1                                          # 最小连接数
@@ -25,10 +25,10 @@ spring:
 #      time-between-eviction-runs-millis: 60000             # 多久才进行一次检测需要关闭的空闲连接，单位是毫秒
 
   redis:
-    host: localhost
-    port: 6379
-    password: root2023
-    database: 0
+    host: 192.168.10.100
+    port: 6380
+    password: root
+    database: 2767
     jedis:
       pool:
         max-active: 8 #最大连接数

@@ -13,7 +13,7 @@ spring:
         password: nacos
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.10.100:3307/turbo_dog?serverTimezone=GMT%2B8&characterEncoding=utf8&&allowMultiQueries=true&useSSL=false
+    url: jdbc:mysql://127.0.0.1:3307/x_timer?serverTimezone=GMT%2B8&characterEncoding=utf8&&allowMultiQueries=true&useSSL=false
     username: root
     password: 2767
     type: com.alibaba.druid.pool.DruidDataSource
